@@ -7,7 +7,7 @@ function Header() {
     return (
         <S.Container>
             <S.LeftSide>
-                <image src={logo} alt="Logo"/>
+                <img src={logo} alt="Logo"/>
             </S.LeftSide>
             <S.RigthSide>
                 
