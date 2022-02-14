@@ -13,8 +13,14 @@ function Header() {
 
             <S.RigthSide>
                 <a href="#">INÍCIO</a>
+                <span className='dividir'/>
+
                 <a href="#">NOVA TAREFA</a>
+                <span className='dividir'/>
+
                 <a href="#">SINCRONIZAR O CELULAR</a>
+                <span className='dividir'/>
+                
                 <a href="#" id="notification">
                     <img src={bell} alt="Notificação"/>
                     <span>5</span>

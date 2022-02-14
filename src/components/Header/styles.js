@@ -55,5 +55,15 @@ export const RigthSide = styled.div`
             top: -20px;
             right: 10px;
         }
+
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+
+    .dividir::after{
+        content: "|";
+        margin: 0 10px;
+        color: #FFF;
     }
 `
