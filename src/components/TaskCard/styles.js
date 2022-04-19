@@ -27,6 +27,9 @@ export const TopCard = styled.div`
     align-items:center;
     justify-content: center;
     flex-direction: column;
+    h3 {
+        padding: 0 20px;
+    }
 `
 
 export const BottomCard = styled.div`
